@@ -7,10 +7,6 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import ProjectDisplay from './pages/ProjectDisplay';
 
-
-// tutorial = https://www.youtube.com/watch?v=x7mwVn2z3Sk&ab_channel=PedroTech
-// Commit test 1
-
 function App() {
   return (
     <div className="App">
