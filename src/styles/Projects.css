@@ -1,6 +1,8 @@
+/* Added the padding-bottom for to push down the footer*/
 .projects {
     width: 100%;
     height: auto;
+    padding-bottom: 16rem;
     display: flex;
     justify-content: center;
     align-items: center;
