@@ -14,11 +14,11 @@ that displays my other projects as well as a little info about myself.
 
 ### `Imports used`
 
-The imports i used for this project was:
-<ul>
-**npm install @material-ui/core @material-ui/icons**
+The imports i used for this project was: <br />
+
+**npm install @material-ui/core @material-ui/icons** <br />
 **npm install react-router-dom react-vertical-timeline-component**
-</ul>
+
 
 ##
 
