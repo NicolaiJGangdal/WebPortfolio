@@ -14,11 +14,12 @@ that displays my other projects as well as a little info about myself.
 
 ### `Imports used`
 
-The imports i used for this priject was:
+The imports i used for this project was:
+##
 **npm install @material-ui/core @material-ui/icons**
 **npm install react-router-dom react-vertical-timeline-component**
 
-
+##
 
 ### `Home`
 
@@ -33,7 +34,7 @@ developing new projects.
 
 <img src="src/Assets/home2.png" title="Bottom of Home Page">
 
-
+##
 
 ### `Projects`
 
@@ -46,7 +47,7 @@ All the projects here are clickable and will open a new page showing a preview o
 The preview contains screenshots, information and a clickable GitHub-icon 
 that redirects to the corresponding project-repository.
 
-
+##
 
 ### `Experience`
 
