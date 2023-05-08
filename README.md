@@ -1,40 +1,52 @@
-# Getting Started with Create React App
+# Welcome To My Portfolio WebPage
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Click here to go back to WebSite [Open Portfolio](http://localhost:3000/).
 
-## Available Scripts
+## About the WebSite
 
-In the project directory, you can run:
 
-### `npm start`
+### `Createation of the project`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This project was created in VsCode using `npx create-react-app WebPortfolio`
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The WebSites purpose is to practice coding in React, but also creating a platform 
+that displays my other projects as well as a little info about myself.
 
-### `npm test`
+### `Imports used`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The imports i used for this priject was:
+**npm install @material-ui/core @material-ui/icons**
+**npm install react-router-dom react-vertical-timeline-component**
 
-### `npm run build`
+### `Home`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The Homepage displays a short list of the technoligies i have been working with.
+The whole WebSite features a NavBar that can be seen at the top,
+as well as a interactive footer at the bottom of the page.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<img src="C:\Users\gangdnic\Pictures\Project\Portfolio\home1.png" alt="The top of my Home Page" title="Top of Home Page">
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The skills featured at the bottom might be outdated, because I'm spending my time 
+developing new projects.
 
-### `npm run eject`
+<img src="C:\Users\gangdnic\Pictures\Project\Portfolio\home2.png" alt="The bottom of my Home Page" title="Bottom of Home Page">
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### `Projects`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+The Projects-page features a list of projects i have done, I'm currently working on 
+and some example projects to fill the empty space.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<img src="C:\Users\gangdnic\Pictures\Project\Portfolio\projects.png" alt="The Projects Page" title="Project Page">
+
+All the projects here are clickable and will open a new page showing a preview of the project. 
+The preview contains screenshots, information and a clickable GitHub-icon 
+that redirects to the corresponding project-repository.
+
+
+### `Experience`
+
+The Experience-page features a timeline showing my work and education experiences.
+It goes back to High-School and all the way to where I'm working today.
+
+<img src="C:\Users\gangdnic\Pictures\Project\Portfolio\experience.png" alt="The Experience Page" title="Experience Page">
