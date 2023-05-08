@@ -24,7 +24,7 @@ The Homepage displays a short list of the technoligies i have been working with.
 The whole WebSite features a NavBar that can be seen at the top,
 as well as a interactive footer at the bottom of the page.
 
-![Top of Home Page](C:\Users\gangdnic\Documents\GitHub\WebPortfolio\src\Assets\home1.png)
+![Top of Home Page](\src\Assets\home1.png)
 
 The skills featured at the bottom might be outdated, because I'm spending my time 
 developing new projects.
