@@ -15,10 +15,10 @@ that displays my other projects as well as a little info about myself.
 ### `Imports used`
 
 The imports i used for this project was:
-##
-**npm install @material-ui/core @material-ui/icons**
-**npm install react-router-dom react-vertical-timeline-component**
-
+<ul>
+<li>**npm install @material-ui/core @material-ui/icons**<li>
+<li>**npm install react-router-dom react-vertical-timeline-component**<li>
+</ul>
 ##
 
 ### `Home`
