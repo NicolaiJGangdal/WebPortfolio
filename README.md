@@ -30,14 +30,14 @@ The skills featured at the bottom might be outdated, because I'm spending my tim
 developing new projects.
 
 <img src="C:\Users\gangdnic\Pictures\Project\Portfolio\home2.png" title="Bottom of Home Page">
-
+![Bottom of Home Page](src/Assets/home2.png)
 
 ### `Projects`
 
 The Projects-page features a list of projects i have done, I'm currently working on 
 and some example projects to fill the empty space.
 
-<img src="C:\Users\gangdnic\Pictures\Project\Portfolio\projects.png" title="Project Page">
+<img src="src/Assets/projects.png" title="Project Page">
 
 All the projects here are clickable and will open a new page showing a preview of the project. 
 The preview contains screenshots, information and a clickable GitHub-icon 
