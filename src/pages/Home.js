@@ -22,13 +22,13 @@ function Home() {
                     <li className="item">
                         <h2>Frontend</h2>
                         <span>
-                            React, Angular, Redux, HTML, CSS, NPM, Yarn, Ionic, Bootstrap, MaterialUI, TailwindCSS
+                            React, Angular, Redux, HTML, CSS, <br /> NPM, Yarn, Ionic, Bootstrap, <br/> MaterialUI, TailwindCSS
                         </span>
                     </li> 
                     <li className="item">
                         <h2>Backend</h2>
                         <span>
-                            Java, Phyton, C#, .NET, GraphQL, SQL, MySQL
+                            Java, Swift, .NET, GraphQL, C#, F#, <br />SQL, MySQL, Firebase 
                         </span>
                     </li> 
                 </ol>
