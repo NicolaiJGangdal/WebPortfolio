@@ -1,51 +1,75 @@
-import proj1 from '../Assets/workoutApp.png';
+import proj1 from '../Assets/myWorkoutApp.png';
 import proj2 from '../Assets/budgetApp.png';
-import proj3 from '../Assets/NETgymRegisterProgram.png';
+import proj3 from '../Assets/padelTennis.jpg';
 import proj4 from '../Assets/SpotiyClone.png';
 import proj5 from '../Assets/bitCoinMining.jpg';
 import proj6 from '../Assets/TicTacToeGame.png';
 
 export const ProjectList = [
     {
-        name: "Workout Tracking App",
+        name: "Fitness App",
         image: proj1,
-        skills: "Under Developement, Swift, xCode",
+        status: "Status: ",
+        status2: "Almost done",
+        title: "Tools",
+        skills: "Swift, Xcode, Figma, Github & App Store Connect",
         link: "https://github.com/NicolaiJGangdal/FitnessApp",
+        link2: "https://www.apple.com/app-store/"
     },
 
     {
         name: "Personal Budgetting app",
         image: proj2,
-        skills: "Under Developement: Javascript, HTML, CSS",
-        link: "https://github.com/NicolaiJGangdal?tab=projects",
+        status: "Status: ",
+        status2: "Planning phase",
+        title: "Tools",
+        skills: "Figma",
+        link: "https://github.com/NicolaiJGangdal?tab=repositories",
+        link2: "https://www.apple.com/app-store/"
     },
 
     
     {
-        name: "Gym User Register Program",
+        name: "Padel Americano App",
         image: proj3,
-        skills: "Under Developement",
-        link: "https://pent.no/59.91273,10.74609",
+        status: "Status: ",
+        status2: "In Planning Stages",
+        title: "Tools",
+        skills: "Figma",
+        link: "https://github.com/NicolaiJGangdal?tab=repositories",
+        link2: "https://www.apple.com/app-store/"
     },
 
     {
         name: "Spotify Clone",
         image: proj4,
-        skills: "Example project",
-        link: "https://github.com/NicolaiJGangdal?tab=projects",
+        title: "Concept app",
+        skills: "Fake project to fill out space",
+        status: "",
+        status2: "",
+        link: "https://github.com/NicolaiJGangdal?tab=repositories",
+        link2: "https://www.apple.com/app-store/"
     },
 
     {
         name: "Bitcoin Mining WebSite",
         image: proj5,
+        title: "Concept app",
         skills: "Example project",
-        link: "https://github.com/NicolaiJGangdal?tab=projects",
+        status: "",
+        status2: "",
+        link: "https://github.com/NicolaiJGangdal?tab=repositories",
+        link2: "https://www.apple.com/app-store/"
     },
 
     {
         name: "TicTacToe Game",
         image: proj6,
-        skills: "Under Developement",
-        link: "https://github.com/NicolaiJGangdal?tab=projects",
+        title: "Tools",
+        skills: "Xcode & Swift",
+        status: "Status :",
+        status2: "Under developement",
+        link: "https://github.com/NicolaiJGangdal?tab=repositories",
+        link2: "https://www.apple.com/app-store/"
     },
 ]
