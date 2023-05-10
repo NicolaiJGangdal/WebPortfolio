@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/WebPortfolio/static/css/main.41f3297d.css",
+    "main.js": "/WebPortfolio/static/js/main.c6e9f369.js",
+    "static/js/787.fb771931.chunk.js": "/WebPortfolio/static/js/787.fb771931.chunk.js",
+    "static/media/SpotiyClone.png": "/WebPortfolio/static/media/SpotiyClone.c9fa7b1830c4dd32c874.png",
+    "static/media/myWorkoutApp.png": "/WebPortfolio/static/media/myWorkoutApp.3dbd7b1ed908e37e79c3.png",
+    "static/media/TicTacToeGame.png": "/WebPortfolio/static/media/TicTacToeGame.953a21e4a063c134ecb2.png",
+    "static/media/padelTennis.jpg": "/WebPortfolio/static/media/padelTennis.ec610442e8e3f5ac1780.jpg",
+    "static/media/bitCoinMining.jpg": "/WebPortfolio/static/media/bitCoinMining.50ef090d59ed7ccb5b5f.jpg",
+    "static/media/budgetApp.png": "/WebPortfolio/static/media/budgetApp.9f45ba935550ca1a14d6.png",
+    "index.html": "/WebPortfolio/index.html",
+    "main.41f3297d.css.map": "/WebPortfolio/static/css/main.41f3297d.css.map",
+    "main.c6e9f369.js.map": "/WebPortfolio/static/js/main.c6e9f369.js.map",
+    "787.fb771931.chunk.js.map": "/WebPortfolio/static/js/787.fb771931.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.41f3297d.css",
+    "static/js/main.c6e9f369.js"
+  ]
+}
