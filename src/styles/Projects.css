@@ -2,7 +2,7 @@
 .projects {
     width: 100%;
     height: auto;
-    padding-bottom: 16rem;
+    /*padding-bottom: 16rem;  Removed now but helps when browser is zoomed */
     display: flex;
     justify-content: center;
     align-items: center;
