@@ -43,10 +43,10 @@ export const ProjectList = [
     {
         name: "Spotify Clone",
         image: proj4,
+        status: "Status: ",
+        status2: "Will not be made",
         title: "Concept app",
         skills: "Fake project to fill out space",
-        status: "",
-        status2: "",
         link: "https://github.com/NicolaiJGangdal?tab=repositories",
         link2: "https://www.apple.com/app-store/"
     },
@@ -54,10 +54,10 @@ export const ProjectList = [
     {
         name: "Bitcoin Mining WebSite",
         image: proj5,
+        status: "Status: ",
+        status2: "Will not be made",
         title: "Concept app",
-        skills: "Example project",
-        status: "",
-        status2: "",
+        skills: "Fake project to fill out space",
         link: "https://github.com/NicolaiJGangdal?tab=repositories",
         link2: "https://www.apple.com/app-store/"
     },
@@ -65,10 +65,10 @@ export const ProjectList = [
     {
         name: "TicTacToe Game",
         image: proj6,
-        title: "Tools",
-        skills: "Xcode & Swift",
         status: "Status :",
         status2: "Under developement",
+        title: "Tools",
+        skills: "Xcode & Swift",
         link: "https://github.com/NicolaiJGangdal?tab=repositories",
         link2: "https://www.apple.com/app-store/"
     },
