@@ -123,7 +123,7 @@ function Experience() {
                     <h3 className="vertical-timeline-element-title">
                         tietoevry, Fornebu, Oslo
                     </h3>
-                    <p> Solution Consultant, Frontend Developer & Techlead</p>
+                    <p> Solution Consultant, Frontend Developer</p>
                 </VerticalTimelineElement>
 
             </VerticalTimeline>
