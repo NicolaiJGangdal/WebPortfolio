@@ -2,6 +2,8 @@ import React from "react";
 import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 
+import "../styles/Experience.css";
+
 import SchoolIcon from '@material-ui/icons/School';
 import SportsHandballIcon from '@material-ui/icons/SportsHandball';
 import MilitaryTechIcon from "@mui/icons-material/MilitaryTech";
@@ -13,7 +15,8 @@ import NextWeekIcon from '@mui/icons-material/NextWeek';
 
 function Experience() {
     return (
-        <div className="experience">
+        <div className="experience placing">
+             {/* <div className="placing"> */}
             <VerticalTimeline lineColor="#3e497a">
                 <VerticalTimelineElement 
                 className="vertical-timeline-element--education"
@@ -116,7 +119,7 @@ function Experience() {
 
                 <VerticalTimelineElement 
                 className="vertical-timeline-element--education"
-                date="2022 - Present"
+                date="2022 - 2023"
                 iconStyle={{background: "#e9d35b", color: "#fff"}}
                 icon={<NextWeekIcon />}
                 >
@@ -126,7 +129,20 @@ function Experience() {
                     <p> Solution Consultant, Frontend Developer</p>
                 </VerticalTimelineElement>
 
+                <VerticalTimelineElement 
+                className="vertical-timeline-element--education"
+                date="2023 - Present"
+                iconStyle={{background: "#e9d35b", color: "#fff"}}
+                icon={<NextWeekIcon />}
+                >
+                    <h3 className="vertical-timeline-element-title">
+                        tietoevry, Fyllingsdalen, Bergen
+                    </h3>
+                    <p> Solution Consultant, Frontend Developer</p>
+                </VerticalTimelineElement>
+
             </VerticalTimeline>
+           { /* </div> */ } 
         </div>
     );
 }
