@@ -16,7 +16,6 @@ import NextWeekIcon from '@mui/icons-material/NextWeek';
 function Experience() {
     return (
         <div className="experience placing">
-             {/* <div className="placing"> */}
             <VerticalTimeline lineColor="#3e497a">
                 <VerticalTimelineElement 
                 className="vertical-timeline-element--education"
@@ -142,7 +141,6 @@ function Experience() {
                 </VerticalTimelineElement>
 
             </VerticalTimeline>
-           { /* </div> */ } 
         </div>
     );
 }
