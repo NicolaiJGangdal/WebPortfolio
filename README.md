@@ -1,6 +1,6 @@
 # Welcome To My Portfolio WebPage
 
-Click here to go back to WebSite [Open Portfolio](http://localhost:3000/).
+Click here to go to WebSite [Open Portfolio](https://nicolaijgangdal.github.io/WebPortfolio).
 
 ## About the WebSite
 
