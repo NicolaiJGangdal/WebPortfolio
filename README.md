@@ -1,7 +1,7 @@
 # Welcome To My Portfolio WebPage
 
 
-Click here to go to WebSite [Open Portfolio](https://nicolaijgangdal.github.io/WebPortfolio).
+Click [here](https://nicolaijgangdal.github.io/WebPortfolio) to go to WebSite.
 
 
 
