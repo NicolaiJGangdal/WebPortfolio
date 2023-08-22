@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import "../styles/Navbar.css";
 import ReorderIcon from '@material-ui/icons/Reorder';
+import { useTranslation } from "react-i18next";
+import { changeLanguage } from "i18next";
 
 function Navbar() {
     const [expandNavbar, setExpandNavbar] = useState(false);
@@ -10,6 +12,12 @@ function Navbar() {
     useEffect(() => {
         setExpandNavbar(false);
     }, [location]);
+
+    const { t, i18n } = useTranslation();
+
+    const changeLanguage = (lng) => {
+        i18n.changeLanguage(lng);
+    };
 
     return (
         <div className="navbar" id={expandNavbar ? "open" : "close"}>
@@ -26,6 +34,16 @@ function Navbar() {
                 <Link to="/WebPortfolio"> Home </Link>
                 <Link to="/projects"> Projects </Link>
                 <Link to="/Experience"> Experience </Link>
+            </div>
+            <div>
+                <ul>
+                    <li>
+                        <button onClick={() => changeLanguage('en')}>{t('navbar.english')}</button>
+                    </li>
+                    <li>
+                        <button onClick={() => changeLanguage('no')}>{t('navbar.norwegian')}</button>
+                    </li>
+                </ul>
             </div>
         </div>
     );
