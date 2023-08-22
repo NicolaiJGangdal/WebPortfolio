@@ -24,7 +24,7 @@ function Experience() {
                 icon={<SchoolIcon />}
                 >
                     <h3 className="vertical-timeline-element-title">
-                        Tvedestrand og Åmli videregående Skole, Tvedestrand, Agder
+                        Tvedestrand og Åmli videregående Skole, Tvedestrand, Agder (High School)
                     </h3>
                     <p> Generell Studiekompetanse</p>
                 </VerticalTimelineElement>                
@@ -36,9 +36,9 @@ function Experience() {
                 icon={<SportsHandballIcon />}
                 >
                     <h3 className="vertical-timeline-element-title">
-                        Håndballtrener, Tvedestrand, Agder
+                        Handball coach, Tvedestrand, Agder
                     </h3>
-                    <p> Ledererfaring</p>
+                    <p> Managerial experience</p>
                 </VerticalTimelineElement>
 
                 <VerticalTimelineElement 
@@ -48,9 +48,9 @@ function Experience() {
                 icon={<MilitaryTechIcon />}
                 >
                     <h3 className="vertical-timeline-element-title">
-                        Førstegangstjeneste, Hæren, 2. Bataljon, Troms og Finnmark
+                        Compulsary military service, Army, 2. Batalion, Troms og Finnmark
                     </h3>
-                    <p> Infanterist, Sambandsmann, Sanitet nivå 2, Militært førerkort på ATV og snøskuter</p>
+                    <p> Infantryman, Communications Officer, Sanitation Level 2, Military driver's license for ATV and Snowmobile</p>
                 </VerticalTimelineElement>
 
                 <VerticalTimelineElement 
@@ -62,7 +62,7 @@ function Experience() {
                     <h3 className="vertical-timeline-element-title">
                         Meny Norges Gruppen, Tvedestrand, Agder
                     </h3>
-                    <p> Butikkmedarbeider</p>
+                    <p> Shop Assistant</p>
                 </VerticalTimelineElement>
 
                 <VerticalTimelineElement 
@@ -74,7 +74,7 @@ function Experience() {
                     <h3 className="vertical-timeline-element-title">
                         Sector Alarm AS, Bergen, Vestland
                     </h3>
-                    <p> Sikkerhetskonsulent & Selger</p>
+                    <p> Security Consultant & Sales</p>
                 </VerticalTimelineElement>
 
                 <VerticalTimelineElement 
@@ -86,7 +86,7 @@ function Experience() {
                     <h3 className="vertical-timeline-element-title">
                         Olstad Fiske AS, Lyngør, Agder
                     </h3>
-                    <p> Fisker, Båtansvarlig & Havforvalter</p>
+                    <p> Fisherman, Boat Manager</p>
                 </VerticalTimelineElement>
 
                 <VerticalTimelineElement 
@@ -98,7 +98,7 @@ function Experience() {
                     <h3 className="vertical-timeline-element-title">
                         UNICEF Norge, Bergen, Vestland
                     </h3>
-                    <p> UNICEF Ambassadør, Team-lead, Felt-koordinator & Selger</p>
+                    <p> UNICEF Ambassador, Team-lead, Field-Coordinator & Sales</p>
                 </VerticalTimelineElement>
 
                 <VerticalTimelineElement 
@@ -113,7 +113,7 @@ function Experience() {
                     <h4 className="vertical-timeline-element-subtitle">
                         Bachelor
                     </h4>
-                    <p> Dataingeniør</p>
+                    <p> Computer Engineer</p>
                 </VerticalTimelineElement>
 
                 <VerticalTimelineElement 
