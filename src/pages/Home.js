@@ -3,14 +3,22 @@ import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import EmailIcon from "@material-ui/icons/Email";
 import GithubIcon from "@material-ui/icons/GitHub";
 import "../styles/Home.css";
+import { Trans, useTranslation } from "react-i18next";
 
 function Home() {
+  const { t, i18n } = useTranslation();
+  const changeLanguage = (language) => {
+    i18n.changeLanguage(language);
+  };
+
   return (
     <div className="home">
       <div className="about">
         <h2>Hi, My Name is Nicolai</h2>
         <div className="prompt">
           <p>A software developer with a passion for learning and creating.</p>
+          <p>æææææææææææææææææ</p>
+          <Trans i18nKey="title"></Trans>
           <LinkedInIcon />
           <EmailIcon />
           <GithubIcon />
@@ -23,8 +31,8 @@ function Home() {
             <h2>Frontend</h2>
             <span>
               React, React Native, Swift, <br />
-              Angular, Typescript, Javascript, <br /> 
-              Redux, HTML, CSS, <br /> 
+              Angular, Typescript, Javascript, <br />
+              Redux, HTML, CSS, <br />
               NPM, Yarn, Ionic, Bootstrap, <br />
               MaterialUI, TailwindCSS
             </span>
