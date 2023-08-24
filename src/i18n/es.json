@@ -1,0 +1,95 @@
+{
+    "navbar": {
+        "home": "Hogar",
+        "projects": "Proyectos",
+        "experience": "Experiencia"
+    },
+    "homePage": {
+        "title": "¡Hola! Me Llamo Nicolai",
+        "subtitle": "Un desarrollador de software con pasión por aprender y crear.",
+        "skills": "Habilidades"
+    },
+    "projects": {
+        "title": "Mis Proyectos Personales"
+    },
+    "projectItems": {
+        "project1": {
+            "name": "Aplicación de Fitness",
+            "status": "Estado: ",
+            "status2": "Casi terminado",
+            "title": "Herramientas"
+        },
+        "project2": {
+            "name": "Aplicación Adivina Mi Número",
+            "status": "Estado: ",
+            "status2": "Terminado",
+            "title": "Herramientas"
+        },
+        "project3": {
+            "name": "Aplicación Padel Americano",
+            "status": "Estado: ",
+            "status2": "En Fase de Planificación",
+            "title": "Herramientas"
+        },
+        "project4": {
+            "name": "Aplicación de Presupuesto",
+            "status": "Estado: ",
+            "status2": "En Fase de Planificación",
+            "title": "Herramientas"
+        },
+        "project5": {
+            "name": "Sitio Web de Minería de Bitcoin",
+            "status": "Estado: ",
+            "status2": "No se realizará",
+            "title": "Sitio Web de Concepto"
+        },
+        "project6": {
+            "name": "Juego de Tres en Línea (TicTacToe)",
+            "status": "Estado: ",
+            "status2": "En Desarrollo",
+            "title": "Herramientas"
+        }
+    },
+    "experience": {
+        "experience1": {
+            "title": "Tvedestrand og Åmli videregående Skole, Tvedestrand, Agder (Instituto de Educación Secundaria)",
+            "experience": "Calificación general para el ingreso a la educación superior"
+        },
+        "experience2": {
+            "title": "Entrenador de Balonmano, Tvedestrand, Agder",
+            "experience": "Experiencia en gestión"
+        },
+        "experience3": {
+            "title": "Servicio Militar Obligatorio, Ejército, 2. Batallón, Troms og Finnmark",
+            "experience": "Infante, Oficial de Comunicaciones, Nivel de Saneamiento 2, Licencia de conducir militar para ATV y Motonieve"
+        },
+        "experience4": {
+            "title": "Meny Norges Gruppen, Tvedestrand, Agder",
+            "experience": "Asistente de Tienda"
+        },
+        "experience5": {
+            "title": "Sector Alarm AS, Bergen, Vestland",
+            "experience": "Consultor de Seguridad y Ventas"
+        },
+        "experience6": {
+            "title": "Olstad Fiske AS, Lyngør, Agder",
+            "experience": "Pescador, Gerente de Barco"
+        },
+        "experience7": {
+            "title": "UNICEF Norge, Bergen, Vestland",
+            "experience": "Embajador de UNICEF, Líder de Equipo, Coordinador de Campo y Ventas"
+        },
+        "experience8": {
+            "title": "Høgskulen på Vestlandet, Bergen, Vestland",
+            "experience": "Ingeniero en Informática"
+        },
+        "experience9": {
+            "title": "tietoevry, Fornebu, Oslo",
+            "experience": "Consultor de Soluciones, Desarrollador Frontend"
+        },
+        "experience10": {
+            "title": "tietoevry, Fyllingsdalen, Bergen",
+            "experience": "Consultor de Soluciones, Desarrollador Frontend"
+        }
+    }
+}

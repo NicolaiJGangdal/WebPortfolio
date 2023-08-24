@@ -54,12 +54,21 @@
   text-align: center;
 }
 
-.language {
-  margin-left: 20%;
+.dropdownContainer {
+  position: fixed;
+  top: 10px;
+  right: 25px;
+  display: flex;
+  align-items: center;
 }
 
-.navPadding {
-  margin-left: 28%;
+.dropdown {
+  padding: 8px 12px;
+  color: #333333;
+  background-color: #eeeeee;
+  border: 1px solid #dddddd;
+  cursor: pointer;
+  border-radius: 10px;
 }
 
 @media only screen and (max-width: 900px) {

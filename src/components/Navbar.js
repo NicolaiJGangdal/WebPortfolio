@@ -2,8 +2,9 @@ import React, { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import "../styles/Navbar.css";
 import ReorderIcon from "@material-ui/icons/Reorder";
+
 import { useTranslation } from "react-i18next";
-import { changeLanguage } from "i18next";
+import i18next from "i18next";
 
 function Navbar() {
   const [expandNavbar, setExpandNavbar] = useState(false);
@@ -13,11 +14,17 @@ function Navbar() {
     setExpandNavbar(false);
   }, [location]);
 
-  //  Defining translation variables
-  const { t, i18n } = useTranslation();
+  const { i18n, t } = useTranslation();
 
-  const changeLanguage = (lng) => {
-    i18n.changeLanguage(lng);
+  //  Checking for language as soon as the component loads
+  useEffect(() => {
+    if (localStorage.getItem("i18nextLng")?.length > 2) {
+      i18next.changeLanguage("en");
+    }
+  }, []);
+
+  const handleLanguageChange = (e) => {
+    i18n.changeLanguage(e.target.value);
   };
 
   return (
@@ -32,11 +39,31 @@ function Navbar() {
         </button>
       </div>
       <div className="links">
-        <div className="navPadding">
-          <Link to="/WebPortfolio"> Home </Link>
-          <Link to="/projects"> Projects </Link>
-          <Link to="/Experience"> Experience </Link>
+        
+          <Link to="/WebPortfolio"> {t("navbar.home")} </Link>
+          <Link to="/projects"> {t("navbar.projects")} </Link>
+          <Link to="/Experience"> {t("navbar.experience")} </Link>
+        
+        <div className="dropdownContainer">
+              <select
+                className="dropdown"
+                value={localStorage.getItem("i18nextLng")}
+                onChange={handleLanguageChange}
+              >
+                <option value="en">English</option>
+                <option value="no">Norsk</option>
+                <option value="es">Español</option>
+              </select>
         </div>
+      </div>
+    </div>
+  );
+}
+
+export default Navbar;
+
+/*
+
         <div className="language">
           <ul>
             <li>
@@ -51,9 +78,5 @@ function Navbar() {
             </li>
           </ul>
         </div>
-      </div>
-    </div>
-  );
-}
 
-export default Navbar;
+*/

@@ -1,0 +1,95 @@
+{
+    "navbar": {
+        "home": "Home",
+        "projects": "Projects",
+        "experience": "Experience"
+    },
+    "homePage": {
+        "title": "Hi, My Name is Nicolai",
+        "subtitle": "A software developer with a passion for learning and creating.",
+        "skills": "Skills"
+    },
+    "projects": {
+        "title": "My Personal Projects"
+    },
+    "projectItems": {
+        "project1": {
+            "name": "Fitness App",
+            "status": "Status: ",
+            "status2": "Almost done",
+            "title": "Tools"
+        },
+        "project2": {
+            "name": "Guess Number Game",
+            "status": "Status: ",
+            "status2": "Done",
+            "title": "Tools"
+        },
+        "project3": {
+            "name": "Padel Americano App",
+            "status": "Status: ",
+            "status2": "In Planning Phase",
+            "title": "Tools"
+        },
+        "project4": {
+            "name": "Budgetting App",
+            "status": "Status: ",
+            "status2": "In Planning Phase",
+            "title": "Tools"
+        },
+        "project5": {
+            "name": "Bitcoin Mining WebSite",
+            "status": "Status: ",
+            "status2": "Will not be made",
+            "title": "Concept Website"
+        },
+        "project6": {
+            "name": "TicTacToe Game",
+            "status": "Status: ",
+            "status2": "Under developement",
+            "title": "Tools"
+        }
+    },
+    "experience": {
+        "experience1": {
+            "title": "Tvedestrand og Åmli videregående Skole, Tvedestrand, Agder (High School)",
+            "experience": "General higher education entrance qualification"
+        },
+        "experience2": {
+            "title": "Handball coach, Tvedestrand, Agder",
+            "experience": "Managerial experience"
+        },
+        "experience3": {
+            "title": "Compulsary military service, Army, 2. Batalion, Troms og Finnmark",
+            "experience": "Infantryman, Communications Officer, Sanitation Level 2, Military driver's license for ATV and Snowmobile"
+        },
+        "experience4": {
+            "title": "Meny Norges Gruppen, Tvedestrand, Agder",
+            "experience": "Shop Assistant"
+        },
+        "experience5": {
+            "title": "Sector Alarm AS, Bergen, Vestland",
+            "experience": "Security Consultant & Sales"
+        },
+        "experience6": {
+            "title": "Olstad Fiske AS, Lyngør, Agder",
+            "experience": "Fisherman, Boat Manager"
+        },
+        "experience7": {
+            "title": "UNICEF Norge, Bergen, Vestland",
+            "experience": "UNICEF Ambassador, Team-lead, Field-Coordinator & Sales"
+        },
+        "experience8": {
+            "title": "Høgskulen på Vestlandet, Bergen, Vestland",
+            "experience": "Computer Engineer"
+        },
+        "experience9": {
+            "title": "tietoevry, Fornebu, Oslo",
+            "experience": "Solution Consultant, Frontend Developer"
+        },
+        "experience10": {
+            "title": "tietoevry, Fyllingsdalen, Bergen",
+            "experience": "Solution Consultant, Frontend Developer"
+        }
+    }
+}

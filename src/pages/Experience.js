@@ -1,6 +1,7 @@
 import React from "react";
 import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
+import { useTranslation } from "react-i18next";
 
 import "../styles/Experience.css";
 
@@ -14,6 +15,9 @@ import AccessibilityIcon from '@material-ui/icons/Accessibility';
 import NextWeekIcon from '@mui/icons-material/NextWeek';
 
 function Experience() {
+
+    const { t } = useTranslation();
+
     return (
         <div className="experience placing">
             <VerticalTimeline lineColor="#3e497a">
@@ -24,9 +28,9 @@ function Experience() {
                 icon={<SchoolIcon />}
                 >
                     <h3 className="vertical-timeline-element-title">
-                        Tvedestrand og Åmli videregående Skole, Tvedestrand, Agder (High School)
+                    {t("experience.experience1.title")}
                     </h3>
-                    <p> Generell Studiekompetanse</p>
+                    <p>{t("experience.experience1.experience")}</p>
                 </VerticalTimelineElement>                
 
                 <VerticalTimelineElement 
@@ -36,9 +40,9 @@ function Experience() {
                 icon={<SportsHandballIcon />}
                 >
                     <h3 className="vertical-timeline-element-title">
-                        Handball coach, Tvedestrand, Agder
+                    {t("experience.experience2.title")}
                     </h3>
-                    <p> Managerial experience</p>
+                    <p>{t("experience.experience2.experience")}</p>
                 </VerticalTimelineElement>
 
                 <VerticalTimelineElement 
@@ -48,9 +52,9 @@ function Experience() {
                 icon={<MilitaryTechIcon />}
                 >
                     <h3 className="vertical-timeline-element-title">
-                        Compulsary military service, Army, 2. Batalion, Troms og Finnmark
+                    {t("experience.experience3.title")}
                     </h3>
-                    <p> Infantryman, Communications Officer, Sanitation Level 2, Military driver's license for ATV and Snowmobile</p>
+                    <p>{t("experience.experience3.experience")}</p>
                 </VerticalTimelineElement>
 
                 <VerticalTimelineElement 
@@ -60,9 +64,9 @@ function Experience() {
                 icon={<StoreIcon />}
                 >
                     <h3 className="vertical-timeline-element-title">
-                        Meny Norges Gruppen, Tvedestrand, Agder
+                    {t("experience.experience4.title")}
                     </h3>
-                    <p> Shop Assistant</p>
+                    <p>{t("experience.experience4.experience")}</p>
                 </VerticalTimelineElement>
 
                 <VerticalTimelineElement 
@@ -72,9 +76,9 @@ function Experience() {
                 icon={<CameraIndoorIcon />}
                 >
                     <h3 className="vertical-timeline-element-title">
-                        Sector Alarm AS, Bergen, Vestland
+                    {t("experience.experience5.title")}
                     </h3>
-                    <p> Security Consultant & Sales</p>
+                    <p>{t("experience.experience5.experience")}</p>
                 </VerticalTimelineElement>
 
                 <VerticalTimelineElement 
@@ -84,9 +88,9 @@ function Experience() {
                 icon={<PhishingIcon />}
                 >
                     <h3 className="vertical-timeline-element-title">
-                        Olstad Fiske AS, Lyngør, Agder
+                    {t("experience.experience6.title")}
                     </h3>
-                    <p> Fisherman, Boat Manager</p>
+                    <p>{t("experience.experience6.experience")}</p>
                 </VerticalTimelineElement>
 
                 <VerticalTimelineElement 
@@ -96,9 +100,9 @@ function Experience() {
                 icon={<AccessibilityIcon />}
                 >
                     <h3 className="vertical-timeline-element-title">
-                        UNICEF Norge, Bergen, Vestland
+                    {t("experience.experience7.title")}
                     </h3>
-                    <p> UNICEF Ambassador, Team-lead, Field-Coordinator & Sales</p>
+                    <p>{t("experience.experience7.experience")}</p>
                 </VerticalTimelineElement>
 
                 <VerticalTimelineElement 
@@ -108,12 +112,12 @@ function Experience() {
                 icon={<SchoolIcon />}
                 >
                     <h3 className="vertical-timeline-element-title">
-                        Høgskulen på Vestlandet, Bergen, Vestland
+                    {t("experience.experience8.title")}
                     </h3>
                     <h4 className="vertical-timeline-element-subtitle">
                         Bachelor
                     </h4>
-                    <p> Computer Engineer</p>
+                    <p>{t("experience.experience8.experience")}</p>
                 </VerticalTimelineElement>
 
                 <VerticalTimelineElement 
@@ -123,9 +127,9 @@ function Experience() {
                 icon={<NextWeekIcon />}
                 >
                     <h3 className="vertical-timeline-element-title">
-                        tietoevry, Fornebu, Oslo
+                    {t("experience.experience9.title")}
                     </h3>
-                    <p> Solution Consultant, Frontend Developer</p>
+                    <p>{t("experience.experience9.experience")}</p>
                 </VerticalTimelineElement>
 
                 <VerticalTimelineElement 
@@ -135,9 +139,9 @@ function Experience() {
                 icon={<NextWeekIcon />}
                 >
                     <h3 className="vertical-timeline-element-title">
-                        tietoevry, Fyllingsdalen, Bergen
+                    {t("experience.experience10.title")}
                     </h3>
-                    <p> Solution Consultant, Frontend Developer</p>
+                    <p>{t("experience.experience10.experience")}</p>
                 </VerticalTimelineElement>
 
             </VerticalTimeline>

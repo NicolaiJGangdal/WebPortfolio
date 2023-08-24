@@ -1,0 +1,95 @@
+{
+    "navbar": {
+        "home": "Hjem",
+        "projects": "Prosjekter",
+        "experience": "Erfaring"
+    },
+    "homePage": {
+        "title": "Hei, Jeg er Nicolai",
+        "subtitle": "En programvareutvikler med lidenskap for læring og skaping.",
+        "skills": "Ferdigheter"
+    },
+    "projects": {
+        "title": "Mine Personlige Prosjekter"
+    },
+    "projectItems": {
+        "project1": {
+            "name": "Trenings App",
+            "status": "Status: ",
+            "status2": "Nesten ferdig",
+            "title": "Verktøy"
+        },
+        "project2": {
+            "name": "Gjett Nummer Spill",
+            "status": "Status: ",
+            "status2": "Ferdig",
+            "title": "Verktøy"
+        },
+        "project3": {
+            "name": "Padel Americano App",
+            "status": "Status: ",
+            "status2": "I Planleggingsfasen",
+            "title": "Verktøy"
+        },
+        "project4": {
+            "name": "Budsjetteringsapp",
+            "status": "Status: ",
+            "status2": "I Planleggingsfasen",
+            "title": "Verktøy"
+        },
+        "project5": {
+            "name": "Bitcoin Webside",
+            "status": "Status: ",
+            "status2": "Vil ikke bli laget",
+            "title": "Konsept Nettside"
+        },
+        "project6": {
+            "name": "TicTacToe Spill",
+            "status": "Status: ",
+            "status2": "Under utvikling",
+            "title": "Verktøy"
+        }
+    },
+    "experience": {
+        "experience1": {
+            "title": "Tvedestrand og Åmli videregående Skole, Tvedestrand, Agder",
+            "experience": "Generell studiekompetanse"
+        },
+        "experience2": {
+            "title": "Håndballtrener, Tvedestrand, Agder",
+            "experience": "Ledererfaring"
+        },
+        "experience3": {
+            "title": "Verneplikt, Hæren, 2. Batalion, Troms og Finnmark",
+            "experience": "Infanterist, Sambandsmann, Sanitet nivå 2, Militært førerkort på ATV og Snøscooter"
+        },
+        "experience4": {
+            "title": "Meny Norges Gruppen, Tvedestrand, Agder",
+            "experience": "Butikkmedarbeider"
+        },
+        "experience5": {
+            "title": "Sector Alarm AS, Bergen, Vestland",
+            "experience": "Sikkerhetskonsulent og Salg"
+        },
+        "experience6": {
+            "title": "Olstad Fiske AS, Lyngør, Agder",
+            "experience": "Fisker, Båtansvarlig og Havforvalter"
+        },
+        "experience7": {
+            "title": "UNICEF Norge, Bergen, Vestland",
+            "experience": "UNICEF Ambassadør, Team-leder, Felt-koordinering og Salg"
+        },
+        "experience8": {
+            "title": "Høgskulen på Vestlandet, Bergen, Vestland",
+            "experience": "Dataingeniør"
+        },
+        "experience9": {
+            "title": "tietoevry, Fornebu, Oslo",
+            "experience": "Solution Consultant, Frontend Utvikler"
+        },
+        "experience10": {
+            "title": "tietoevry, Fyllingsdalen, Bergen",
+            "experience": "Solution Consultant, Frontend Utvikler"
+        }
+    }
+}
