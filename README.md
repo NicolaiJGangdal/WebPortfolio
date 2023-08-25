@@ -22,6 +22,8 @@ The imports i used for this project was: <br />
 
 **npm install @material-ui/core @material-ui/icons** <br />
 **npm install react-router-dom react-vertical-timeline-component**
+**npm install i18next react-i18next i18next-http-backend**
+**npm install i18next-browser-languagedetector**
 
 ##
 
