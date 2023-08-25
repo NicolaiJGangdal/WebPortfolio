@@ -21,8 +21,8 @@ that displays my other projects as well as a little info about myself.
 The imports i used for this project was: <br />
 
 **npm install @material-ui/core @material-ui/icons** <br />
-**npm install react-router-dom react-vertical-timeline-component**
-**npm install i18next react-i18next i18next-http-backend**
+**npm install react-router-dom react-vertical-timeline-component** <br />
+**npm install i18next react-i18next i18next-http-backend** <br />
 **npm install i18next-browser-languagedetector**
 
 ##
