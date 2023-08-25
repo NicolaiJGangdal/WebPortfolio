@@ -61,22 +61,3 @@ function Navbar() {
 }
 
 export default Navbar;
-
-/*
-
-        <div className="language">
-          <ul>
-            <li>
-              <button onClick={() => changeLanguage("en")}>
-                {t("navbar.english")}
-              </button>
-            </li>
-            <li>
-              <button onClick={() => changeLanguage("no")}>
-                {t("navbar.norwegian")}
-              </button>
-            </li>
-          </ul>
-        </div>
-
-*/
