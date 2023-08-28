@@ -38,24 +38,24 @@ function Navbar() {
           <ReorderIcon />
         </button>
       </div>
-      <div className="links">
-        
+      {/* <div className="navContainer3"> */}
+        <div className="links">
           <Link to="/WebPortfolio"> {t("navbar.home")} </Link>
           <Link to="/projects"> {t("navbar.projects")} </Link>
           <Link to="/Experience"> {t("navbar.experience")} </Link>
-        
-        <div className="dropdownContainer">
-              <select
-                className="dropdown"
-                value={localStorage.getItem("i18nextLng")}
-                onChange={handleLanguageChange}
-              >
-                <option value="en">English</option>
-                <option value="no">Norsk</option>
-                <option value="es">Español</option>
-              </select>
         </div>
-      </div>
+        <div className="dropdownContainer">
+          <select
+            className="dropdown"
+            value={localStorage.getItem("i18nextLng")}
+            onChange={handleLanguageChange}
+          >
+            <option value="en">English</option>
+            <option value="no">Norsk</option>
+            <option value="es">Español</option>
+          </select>
+        </div>
+      {/* </div> */}
     </div>
   );
 }
