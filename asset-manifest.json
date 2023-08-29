@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/WebPortfolio/static/css/main.825eefc1.css",
-    "main.js": "/WebPortfolio/static/js/main.b6c6c1c7.js",
+    "main.css": "/WebPortfolio/static/css/main.0b7ac3a5.css",
+    "main.js": "/WebPortfolio/static/js/main.f1a2a4b6.js",
     "static/js/787.fb771931.chunk.js": "/WebPortfolio/static/js/787.fb771931.chunk.js",
     "static/media/gmn.png": "/WebPortfolio/static/media/gmn.7c2fded088b0fc017648.png",
     "static/media/myWorkoutApp.png": "/WebPortfolio/static/media/myWorkoutApp.3dbd7b1ed908e37e79c3.png",
@@ -11,12 +11,12 @@
     "static/media/budgetApp.png": "/WebPortfolio/static/media/budgetApp.9f45ba935550ca1a14d6.png",
     "index.html": "/WebPortfolio/index.html",
     "static/media/getFetch.cjs": "/WebPortfolio/static/media/getFetch.40f37ddea2378391108f.cjs",
-    "main.825eefc1.css.map": "/WebPortfolio/static/css/main.825eefc1.css.map",
-    "main.b6c6c1c7.js.map": "/WebPortfolio/static/js/main.b6c6c1c7.js.map",
+    "main.0b7ac3a5.css.map": "/WebPortfolio/static/css/main.0b7ac3a5.css.map",
+    "main.f1a2a4b6.js.map": "/WebPortfolio/static/js/main.f1a2a4b6.js.map",
     "787.fb771931.chunk.js.map": "/WebPortfolio/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.825eefc1.css",
-    "static/js/main.b6c6c1c7.js"
+    "static/css/main.0b7ac3a5.css",
+    "static/js/main.f1a2a4b6.js"
   ]
 }
