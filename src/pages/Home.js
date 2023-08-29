@@ -13,9 +13,9 @@ function Home() {
   return (
     <div className="home">
       <div className="about">
-        <h2>{t("homePage.title")}</h2>
+        {/* <h2>{t("homePage.title")}</h2> */}
         <div className="prompt">
-          <p>{t("homePage.subtitle")}</p>
+          {/* <p>{t("homePage.subtitle")}</p> */}
           <LinkedInIcon />
           <EmailIcon />
           <GithubIcon />
