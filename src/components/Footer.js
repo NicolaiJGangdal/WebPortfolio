@@ -27,7 +27,7 @@ function Footer() {
                     <LinkedInIcon />
                 </Link>
             </div>
-            <p> &copy; 2023 Nicolai Jensen Gangdal, Inc.</p>
+            <p> &copy; 2024 Nicolai Jensen Gangdal, Inc.</p>
         </div>
     );
 }
