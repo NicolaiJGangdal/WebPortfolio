@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import InstagramIcon from "@material-ui/icons/Instagram";
-import TwitterIcon from "@material-ui/icons/Twitter";
+import XIcon from '@mui/icons-material/X';
 import FacebookIcon from "@material-ui/icons/Facebook";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import { FaStrava } from "react-icons/fa";
@@ -21,7 +21,7 @@ function Footer() {
                     <FaStrava />
                 </Link>
                 <Link to="https://twitter.com/nicolaijgangdal" target="_blank">
-                    <TwitterIcon />
+                    <XIcon />
                 </Link>
                 <Link to="https://www.linkedin.com/in/nicolai-jensen-gangdal-223651219/?originalSubdomain=no" target="_blank">
                     <LinkedInIcon />
