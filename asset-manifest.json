@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/WebPortfolio/static/css/main.488b0600.css",
-    "main.js": "/WebPortfolio/static/js/main.eb40c720.js",
-    "static/js/787.fb771931.chunk.js": "/WebPortfolio/static/js/787.fb771931.chunk.js",
+    "main.css": "/WebPortfolio/static/css/main.67cf21d0.css",
+    "main.js": "/WebPortfolio/static/js/main.f0eace82.js",
+    "static/js/592.7881a785.chunk.js": "/WebPortfolio/static/js/592.7881a785.chunk.js",
     "static/media/gmn.png": "/WebPortfolio/static/media/gmn.7c2fded088b0fc017648.png",
     "static/media/myWorkoutApp.png": "/WebPortfolio/static/media/myWorkoutApp.3dbd7b1ed908e37e79c3.png",
     "static/media/TicTacToeGame.png": "/WebPortfolio/static/media/TicTacToeGame.953a21e4a063c134ecb2.png",
@@ -11,12 +11,12 @@
     "static/media/budgetApp.png": "/WebPortfolio/static/media/budgetApp.9f45ba935550ca1a14d6.png",
     "index.html": "/WebPortfolio/index.html",
     "static/media/getFetch.cjs": "/WebPortfolio/static/media/getFetch.40f37ddea2378391108f.cjs",
-    "main.488b0600.css.map": "/WebPortfolio/static/css/main.488b0600.css.map",
-    "main.eb40c720.js.map": "/WebPortfolio/static/js/main.eb40c720.js.map",
-    "787.fb771931.chunk.js.map": "/WebPortfolio/static/js/787.fb771931.chunk.js.map"
+    "main.67cf21d0.css.map": "/WebPortfolio/static/css/main.67cf21d0.css.map",
+    "main.f0eace82.js.map": "/WebPortfolio/static/js/main.f0eace82.js.map",
+    "592.7881a785.chunk.js.map": "/WebPortfolio/static/js/592.7881a785.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.488b0600.css",
-    "static/js/main.eb40c720.js"
+    "static/css/main.67cf21d0.css",
+    "static/js/main.f0eace82.js"
   ]
 }
