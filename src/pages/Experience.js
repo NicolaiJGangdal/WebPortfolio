@@ -134,7 +134,7 @@ function Experience() {
 
                 <VerticalTimelineElement 
                 className="vertical-timeline-element--education"
-                date="2023 - Present"
+                date="2023 - 2024"
                 iconStyle={{background: "#e9d35b", color: "#fff"}}
                 icon={<NextWeekIcon />}
                 >
@@ -142,6 +142,18 @@ function Experience() {
                     {t("experience.experience10.title")}
                     </h3>
                     <p>{t("experience.experience10.experience")}</p>
+                </VerticalTimelineElement>
+
+                <VerticalTimelineElement 
+                className="vertical-timeline-element--education"
+                date="2024 - Present"
+                iconStyle={{background: "#e9d35b", color: "#fff"}}
+                icon={<NextWeekIcon />}
+                >
+                    <h3 className="vertical-timeline-element-title">
+                    {t("experience.experience11.title")}
+                    </h3>
+                    <p>{t("experience.experience11.experience")}</p>
                 </VerticalTimelineElement>
 
             </VerticalTimeline>

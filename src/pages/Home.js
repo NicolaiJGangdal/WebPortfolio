@@ -23,25 +23,32 @@ function Home() {
       </div>
       <div className="skills">
         <h1>{t("homePage.skills")}</h1>
-        <ol className="list">
-          <li className="item">
+        <div className="skills-container">
+          <div className="cloud">
             <h2>Frontend</h2>
-            <span>
+            <span className="tech">
               React, React Native, Swift, <br />
               Angular, Typescript, Javascript, <br />
               Redux, HTML, CSS, <br />
               NPM, Yarn, Ionic, Bootstrap, <br />
               MaterialUI, TailwindCSS
             </span>
-          </li>
-          <li className="item">
+          </div>
+          <div className="cloud">
             <h2>Backend</h2>
-            <span>
+            <span className="tech">
               Java, C#, GraphQL, <br />
               SQL, MySQL
             </span>
-          </li>
-        </ol>
+          </div>
+          <div className="cloud">
+            <h2>Cloud</h2>
+            <span className="tech">
+              Azure, Microsoft AZ-900, <br />
+              Microsoft AZ-104, Terraform
+            </span>
+          </div>
+        </div>
       </div>
     </div>
   );

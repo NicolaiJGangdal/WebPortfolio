@@ -85,11 +85,15 @@
         },
         "experience9": {
             "title": "tietoevry, Fornebu, Oslo",
-            "experience": "Consultor de Soluciones, Desarrollador Frontend"
+            "experience": "Junior Consultor de Soluciones, Desarrollador Frontend"
         },
         "experience10": {
             "title": "tietoevry, Fyllingsdalen, Bergen",
             "experience": "Consultor de Soluciones, Desarrollador Frontend"
+        },
+        "experience11": {
+            "title": "tietoevry, Fyllingsdalen, Bergen",
+            "experience": "Especialista Técnico, Consultor de Cloud"
         }
     }
 }
