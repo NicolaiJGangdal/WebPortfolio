@@ -95,6 +95,18 @@
     text-align: center;
   }
 
+  .skills-container {
+    width: 100%; /* Adjusted width for full width on smaller screens */
+    flex-direction: column; /* Changed to column for stacking */
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cloud {
+    margin-top: 3%; /* Reduced margin for better spacing on smaller screens */
+    margin-bottom: 3%; /* Reduced margin for better spacing on smaller screens */
+  }
+
   .skills h2 {
     font-size: 30px;
   }
